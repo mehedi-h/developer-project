@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    padding: 15px 35px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+/*nav related style*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlight-text {
+    color: orangered;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: #181818;
+}
