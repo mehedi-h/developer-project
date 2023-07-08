@@ -13,6 +13,7 @@ body {
     color: #fff;
     font-size: 25px;
     font-weight: 700;
+    
 }
 
 /*nav related style*/
@@ -55,7 +56,12 @@ nav a {
     align-items: center;
 }
 .banner .banner-img {
-    width: 500px;
+    width: 600px;
+    margin-left: 400px;
+    
+}
+.banner-content .btn-primary {
+    margin-right: 50px;
 }
 .banner-greeting {
     font-size: 45px;
@@ -70,5 +76,5 @@ nav a {
 }
 .banner-description {
     font-size: 25px;
-    
+    margin: 20px 0;
 }
