@@ -14,8 +14,14 @@ body {
     font-size: 25px;
     font-weight: 700;
 }
+
 /*nav related style*/
+.header {
+    background-color: rgb(244, 235, 223);
+    padding-top: 30px;
+}
 nav {
+    margin: 0 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,4 +45,12 @@ nav li {
 nav a {
     text-decoration: none;
     color: #181818;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-img {
+    width: 500px;
 }
