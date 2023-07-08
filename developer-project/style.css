@@ -13,9 +13,14 @@ body {
     color: #fff;
     font-size: 25px;
     font-weight: 700;
-    
 }
-
+.btn-primary:hover {
+    color: orangered;
+    background-color: transparent;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    border-style: inset;
+}
 /*nav related style*/
 .header {
     background-color: rgb(244, 235, 223);
@@ -89,6 +94,9 @@ main{
     max-width: 1280px;
     margin: 0 auto;
 }
+main section {
+    margin-top: 130px;
+}
 /*about section style*/
 
 .about {
@@ -130,12 +138,35 @@ main{
     padding: 30px 150px;
 }
 .skills-container {
-    display: flex; 
+    display: flex;
+    gap: 35px; 
+}
+.skill-brief {
+    color: #3c3c3c;
 }
 .skill-coloumn {
     padding: 35px;
-    gap: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.07);
 }
 .skill-name {
     padding: 20px 0;
+}
+.resume {
+    color: orangered;
+}
+
+/*Resume section style*/
+
+.resume-column-title {
+    color: #3c3c3c;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
 }
