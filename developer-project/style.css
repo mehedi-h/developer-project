@@ -80,27 +80,44 @@ nav a {
 .banner-description {
     font-size: 25px;
     margin: 20px 0;
+    text-align: justify;
 }
 
 /*main section style*/
-
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 /*about section style*/
 
 .about {
     margin: 130px 0;
     padding: 130px;
     border-radius: 10px;
-    background-color: #F4EBDF;
+    background-color:rgb(244, 235, 223);
     
 }
 .about-title {
     color: #181818;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
+    padding: 20px 0;
 }
 .about-description {
     color: #3c3c3c;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
+    padding: 30px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-info {
+    text-align: center;
+}
+.info-description {
+    padding: 20px 0;
 }
