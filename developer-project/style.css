@@ -81,6 +81,7 @@ nav a {
     font-size: 25px;
     margin: 20px 0;
     text-align: justify;
+    
 }
 
 /*main section style*/
@@ -97,18 +98,19 @@ main{
     background-color:rgb(244, 235, 223);
     
 }
-.about-title {
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 50px;
     font-weight: 700;
     padding: 20px 0;
 }
-.about-description {
+.section-description {
     color: #3c3c3c;
     text-align: justify;
     font-size: 20px;
     padding: 30px;
+
 }
 .about-info-container {
     display: flex;
@@ -118,6 +120,22 @@ main{
 .about-info {
     text-align: center;
 }
-.info-description {
+.about-info-description {
+    padding: 20px 0;
+}
+
+/*Skills Related Style*/
+
+#skill {
+    padding: 30px 150px;
+}
+.skills-container {
+    display: flex; 
+}
+.skill-coloumn {
+    padding: 35px;
+    gap: 35px;
+}
+.skill-name {
     padding: 20px 0;
 }
