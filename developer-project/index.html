@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Developer Project</title>
+    <script src="https://kit.fontawesome.com/69fa576880.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
         <nav>
-            <h2 class="nav-title">Sha<span class="highlight-text">m</span>im</h2>
+            <h2 class="nav-title">Bata<span class="highlight-text">s</span>hi</h2>
             <ul>
                 <li> <a href="#"></a> Portfolio </li>
                 <li> <a href="#"></a> Blog </li>
@@ -28,8 +29,8 @@
                 <p class="banner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsum accusantium ullam similique labore suscipit
                      quidem quaerat nihil odit libero nemo!</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
             <img src="./images/character boring.png" alt="" class="banner-img">
         </div>
@@ -144,7 +145,7 @@
                 </div>
             </div>
             <div class="download-cv">  
-                <button class="btn-primary">Download Resume</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download Resume</button>
             </div>  
         </section>
     </main>
@@ -152,27 +153,33 @@
     <!--Started Footer Section-->
 
     <footer>
-        <div class="footer-column">
-            <h3 class="section-title">Let's Connect</h3>
-            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, non! Eius sapiente molestias unde voluptatem? Numquam voluptates beatae odio sit sunt itaque aspernatur iure ex.</p>
-            <div class="social-link">
-                <a href=""><img src="./images/icons/facebook.png" alt=""></a>
-                <a href=""><img src="./images/icons/twitter.png" alt=""></a>
-                <a href=""><img src="./images/icons/insta.png" alt=""></a>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="section-title">Let's Connect</h3>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, non! Eius sapiente molestias unde voluptatem? Numquam voluptates beatae odio sit sunt itaque aspernatur iure ex.</p>
+                <div class="social-link">
+                    <a href=""><img src="./images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="./images/icons/twitter.png" alt=""></a>
+                    <a href=""><img src="./images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+                
+
+            <div class="footer-column">
+                <h3 class="section-title">Let's Message Me</h3>
+
+                <form class="contact" action="">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <input type="submit" value="Submit" class="btn-primary">
+                </form>
             </div>
         </div>
-            
-
-        <div class="footer-column">
-            <h3 class="section-title">Let's Message Me</h3>
-            <form class="contact" action="">
-                <input type="text" placeholder="Enter Your Name">
-                <input type="email" placeholder="Enter Your E-mail">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-                <input type="submit" value="Submit" class="btn-primary">
-            </form>
+        <div class="copyright">
+            <small>All Right Reserved Batashi&copy;2023</small>
         </div>
     </footer>
-
+    
 </body>
 </html>

@@ -24,11 +24,12 @@ body {
 }
 /*nav related style*/
 .header {
-    background-color: rgb(244, 235, 223);
+    background-color: #FEF9E7;
     padding-top: 30px;
-    background-image: url(./images/header_bg.png) url();
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, center left;
+    width: 100%;
 }
 nav {
     margin: 0 250px;
@@ -65,9 +66,8 @@ nav a {
 .banner-content {
     max-width: 600px;
 }
-.banner .banner-img {
-    width: 600px;
-    
+.banner-img {
+    width: 700px;
 }
 .banner-content .btn-primary {
     margin-right: 50px;
@@ -104,7 +104,7 @@ main section {
     margin: 130px 0;
     padding: 130px;
     border-radius: 10px;
-    background-color:rgb(244, 235, 223);
+    background-color:#FEF9E7;
     
 }
 .section-title {
@@ -195,7 +195,8 @@ main section {
     padding-right: 60px;
 }
 .resume-column hr {
-    margin: 40px 0;
+    margin: 40px 0px;
+
 }
 .download-cv {
     margin-top: 50px;
@@ -205,15 +206,29 @@ main section {
 /*Footer Section Style*/
 
 footer {
+    background-color:#FEF9E7;
+    padding-bottom: 20px;
+}
+.footer-container {
     display: flex;
     gap: 100px;
     margin-top: 100px;
-    background-color:rgb(244, 235, 223);
     padding: 130px 200px;
 }
 .footer-column {
     width: 50%;
+    
 }
+.footer-column h3 {
+    text-align: justify;
+}
+.footer-column p {
+    padding-left: 0;
+}
+.social-link a {
+    margin-right: 20px;
+}
+
 .contact input[type="text"], .contact input[type="email"],
 textarea {
     display: block;
@@ -224,4 +239,7 @@ textarea {
     background-color: #fff;
     border: 0;
     width: 100%;
+}
+footer .copyright { 
+    text-align: center;
 }
