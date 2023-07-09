@@ -13,6 +13,7 @@ body {
     color: #fff;
     font-size: 25px;
     font-weight: 700;
+    cursor: pointer;
 }
 .btn-primary:hover {
     color: orangered;
@@ -112,6 +113,7 @@ main section {
     font-size: 50px;
     font-weight: 700;
     padding: 20px 0;
+    margin: 30px 0;
 }
 .section-description {
     color: #3c3c3c;
@@ -153,20 +155,45 @@ main section {
 .skill-name {
     padding: 20px 0;
 }
-.resume {
-    color: orangered;
-}
+
 
 /*Resume section style*/
 
+.resume {
+    color: orangered;
+}
 .resume-column-title {
     color: #3c3c3c;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
+    margin: 20px 0;
+    
 }
 .resume-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 30px auto;
     padding: 20px 10px;
+    gap: 50px;
+}
+.resume-item-title {
+    color: #3c3c3c;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute {
+    margin: 15px 0;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 700;
+}
+.resume-item-description {
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 60px;
+}
+.resume-column hr {
+    margin: 50px 0;
 }
